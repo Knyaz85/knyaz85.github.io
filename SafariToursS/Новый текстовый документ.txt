@@ -1,0 +1,146 @@
+ONLINE BOOKING - желтая лента
+
+
+
+
+
+
+без тени (прозрачный треугольник)
+
+.form-online-booking legend {
+	width: 209px;
+	height: 40px;
+	background-color: #ded90e;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	-moz-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    -webkit-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+	margin-left: -18px;
+	position: relative;
+}
+
+.form-online-booking legend:after {
+	content: "";
+	width: 0;
+    height: 0;
+	border-right: 17px solid transparent;
+	border-top: 20px solid #ded90e;
+	border-bottom: 20px solid #ded90e;
+	-moz-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    -webkit-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+	position: absolute;
+	left: 209px;
+	top: 0;
+}
+
+
+
+
+
+
+с помощью изображения
+
+.form-online-booking {
+	width: 323px;
+	height: 554px;
+	border: 7px solid #7ebee0;
+	border-radius: 24px;
+	background-color: #299fca;
+	float: right;
+	margin-right: 26px;
+	padding-top: 22px;
+}
+
+.form-online-booking legend {
+	width: 240px;
+	height: 50px;
+	background-image: url(img/bd-online-booking.png);
+	margin-left: -26px;
+}
+
+
+
+
+
+Метод Double-Box
+
+.form-online-booking {
+	width: 323px;
+	height: 554px;
+	border: 7px solid #7ebee0;
+	border-radius: 24px;
+	background-color: #299fca;
+	float: right;
+	margin-right: 26px;
+	padding-top: 26px;
+}
+
+.form-online-booking legend {
+	width: 209px;
+	height: 40px;
+	background-color: #ded90e;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	-moz-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    -webkit-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+	margin-left: -18px;
+}
+
+.triangle {
+	height: 25px;
+	width: 21px;
+	background: transparent;
+	position: relative;
+	margin-top: -45px;
+	margin-left: 191px;
+	overflow: hidden;
+}
+
+.triangle:after {
+	content: "";
+    position: absolute;
+	width: 17px;
+	height: 20px;
+	background: #ded90e;
+	-moz-transform: skew(-40deg);
+	-webkit-transform: skew(-40deg);
+	transform: skew(-40deg);
+	top: 5px;
+	left: -8.8px;
+	-moz-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    -webkit-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+}
+
+.triangle2 {
+	height: 25px;
+	width: 21px;
+	background: transparent;
+	position: relative;
+	margin-left: 191px;
+	overflow: hidden;
+}
+
+.triangle2:after {
+	content: "";
+    position: absolute;
+	width: 17px;
+	height: 20px;
+	background: #ded90e;
+	-moz-transform: skew(40deg);
+	-webkit-transform: skew(40deg);
+	transform: skew(40deg);
+	top: 0;
+	left: -8.8px;
+	-moz-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    -webkit-box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+    box-shadow: 1px 1px 5px rgba(18,126,165,0.75);
+}
+
+	
+
+
+
